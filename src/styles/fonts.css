@@ -1,0 +1,28 @@
+/* src/styles/fonts.css */
+
+/* Lato Regular */
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Raleway Regular */
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/raleway-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Opcional: clases para usar más fácilmente */
+*, .lato {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .raleway {
+  font-family: 'Raleway', sans-serif;
+}

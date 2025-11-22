@@ -1,0 +1,17 @@
+.Footer {
+
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(10px);
+  background-color: #00000040;
+
+  ;
+}
+
+.Footer a {
+  color: white;
+  font-size: large;
+}
