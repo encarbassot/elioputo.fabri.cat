@@ -1,0 +1,45 @@
+.ScrollControllerWrapper {
+  height: 100dvh;
+  /* o 100vh */
+  overflow-y: auto;
+  width: 100%;
+  position: relative;
+}
+
+
+.ScrollController {
+  width: 100%;
+}
+
+.section {
+  position: absolute;
+  width: 100%;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.wrapper>* {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* Estilos de elementos */
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.wrapper>Vid {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.visible {
+  background: red;
+}

@@ -1,0 +1,8 @@
+.visible .Fabricat {
+  background-color: red;
+}
+
+
+.inView .Fabricat {
+  background-color: green;
+}
